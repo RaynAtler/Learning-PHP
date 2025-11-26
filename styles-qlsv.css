@@ -1,0 +1,17 @@
+
+    table {
+        background-size: cover;
+        margin-left: 450px;
+        color: aliceblue;
+        font-size: 30px;  
+    }
+    h2 {
+        color: white;
+        background-size: cover;
+        margin-left: 550px;
+        font-size: 30px;  
+    }
+    body {
+        background-image: url(images/130487409_p0.jpg);
+        background-position: center;
+    }

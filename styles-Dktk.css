@@ -1,0 +1,26 @@
+
+    form {
+        background-size: cover;
+        margin: auto;
+    }
+    title{
+        text-shadow: 10px;
+    }
+    label{
+        color: white;
+    }
+    h1,p{
+        color: white;
+        margin : auto;
+    }
+    body {
+        margin : auto;
+        background-image: url(images/130487409_p0.jpg);
+    }
+
+    table {
+        background-size: cover;
+        margin: auto;
+        color: aliceblue;
+        font-size: 20px;  
+    }

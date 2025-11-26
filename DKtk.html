@@ -1,53 +1,84 @@
 <head>
     <title>Đăng ký tài khoản</title>
+    <link rel="stylesheet" href="styles-Dktk.css">
 </head>
 <Body>
     <h1>Đăng ký tài khoản!</h1>
-<p>Nhập và lựa chọn thông tin đăng ký</p>
-<form>
-    <input type="text" id="firstname" name="firstname" placeholder="Tên">
-    <input type="text" id="lastname" name="lastname" placeholder="Họ đệm"><br><br>
-    <input type="text" id="email" name="email" placeholder="Địa chỉ Email">
-    <input type="text" id="phonenumber" name="phonenumber" placeholder="SĐT"><br><br>
-    
-    <label>Chọn thành phố</label>
-    <select>
-        <option value="" disabled selected>Tỉnh</option>
-        <option value="Hanoi">Hà Nội</option>
-        <option value="Haiduong">Hải Dương</option>
-        <option value="Haiphong">Hải Phòng</option>
-        <option value="Hagiang">Hà Giang</option>
-        <option value="Quangninh">Quảng Ninh</option>
-        <option value="Hungyen">Hưng Yên</option>
-        <option value="Phutho">Phú Thọ</option>
-        <option value="Nhatrang">Nha Trang</option>
-    </select>
-    <br><br>
+    <p>Nhập và lựa chọn thông tin đăng ký</p>
+    <form>
+        <input type="text" id="firstname" name="firstname" placeholder="Tên">
+        <input type="text" id="lastname" name="lastname" placeholder="Họ đệm"><br><br>
+        <input type="text" id="email" name="email" placeholder="Địa chỉ Email">
+        <input type="text" id="phonenumber" name="phonenumber" placeholder="SĐT"><br><br>
+        
+        <label>Chọn thành phố</label>
+        <select>
+            <option value="" disabled selected>Tỉnh</option>
+            <option value="Hanoi">Hà Nội</option>
+            <option value="Haiduong">Hải Dương</option>
+            <option value="Haiphong">Hải Phòng</option>
+            <option value="Hagiang">Hà Giang</option>
+            <option value="Quangninh">Quảng Ninh</option>
+            <option value="Hungyen">Hưng Yên</option>
+            <option value="Phutho">Phú Thọ</option>
+            <option value="Nhatrang">Nha Trang</option>
+        </select>
+        <br><br>
 
-    <textarea id="node" name="node" rows="10" cols="50" placeholder="Ghi chú" ></textarea>
-    <br><br>
+        <textarea id="node" name="node" rows="10" cols="50" placeholder="Ghi chú" ></textarea>
+        <br><br>
 
-    <input type="button" id="btndangki" name="dangky" value="Đăng ký">
-</form>
+        <input type="button" id="btndangki" name="dangky" value="Đăng ký">
+    </form>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Họ và tên</th>
+                <th>Điểm</th>
+                <th>Xếp loại</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td colspan="4">Khóa A</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Nguyễn Trọng Đức</td>
+                <td>7</td>
+                <td rowspan="2">Khá</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Phạm Quang Minh</td>
+                <td>8</td>
+            </tr>
+            
+            <tr>
+                <td colspan="4">Khóa B</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Trần Phan Anh</td>
+                <td>5</td>
+                <td>Trung bình</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Phạm Văn Đạt</td>
+                <td>10</td>
+                <td>Giỏi</td>
+            </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="2">Tổng cộng</td>
+                    <td>7.5</td>
+                    <td>Khá</td>
+                </tr>
+            </tfoot>
+        
+    </table>
 
-<style>
-    h1 {
-        color: rgb(184, 133, 231);
-    }
-    form {
-        background-size: cover;
-        margin-left : 500px;
-    }
-    label{
-        color: white;
-    }
-    h1,p{
-        color: white;
-        margin-left : 500px;
-    }
-    body {
-        background-image: url(images/beginning_of_a_great_journey_by_frankatt_da5ud6e-fullview.jpg);
-    }
-
-</style>
 </Body>

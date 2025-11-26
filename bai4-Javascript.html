@@ -1,0 +1,43 @@
+<head>
+    <script lang="javascript" src="bai4.js"></script>
+</head>
+<body>
+    <button id="btnTest">Xin chao</button>
+    <h2>Kết quả tính toán</h2>
+  <div id="output"></div>
+
+  <script lang="javascript">
+    for (let i = 1; i <= 10 ; i++){
+    if(i%2 === 0){
+        continue;
+    }
+    console.log(i);
+    }
+
+    document.getElementById("btnTest").onclick = function() {
+    alert("Shut the fuck up!!!");
+    };
+
+  </script>
+
+  <form id="banana" >
+        <input type="text" id="mango" placeholder="nhap ten">
+        <button type="submit">Gửi</button>
+    <script>
+        document.getElementById("banana") 
+            .addEventListener("submit",function(event) {
+                let name = document.getElementById("mango").value;
+                if (name === "") {
+                    alert("stand down or be banished to the void!!");
+                    event.preventDefault;
+                }
+                else {
+                    alert("Submit to you and banish my triumph , YOU GONE MAD!!");
+                }
+            })
+    </script>
+      </form>
+
+
+</body>
+
